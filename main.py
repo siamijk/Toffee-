@@ -20,7 +20,7 @@ def update_time():
 
 def update_live_event_info():
     headers = {
-        "Host": "mapi-cdn.tsports.com",
+        "Host": "real-db.toffeelive.com",
         "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
     }
     
@@ -52,7 +52,7 @@ def update_live_event_info():
                             "link": link,
                             "headers": {
                                 "Cookie": cookie,
-                                "Host": "live-cdn.tsports.com",
+                                "Host": "mprod-cdn.toffeelive.com",
                                 "User-Agent": "https://github.com/byte-capsule (Linux;Android 14)"
                             }
                         }
