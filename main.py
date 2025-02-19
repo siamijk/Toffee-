@@ -20,7 +20,7 @@ def update_time():
 
 def update_live_event_info():
     headers = {
-        "Host": "real-db.toffeelive.com",
+        "Host": "mapi.toffeelive.com",
         "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
     }
     
